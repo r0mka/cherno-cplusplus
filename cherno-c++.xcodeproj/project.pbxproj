@@ -19,6 +19,7 @@
 		212199FE260DEC000042B241 /* 8-references.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 212199FC260DEC000042B241 /* 8-references.cpp */; };
 		21219A01260DF2F30042B241 /* 9-classes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 212199FF260DF2F30042B241 /* 9-classes.cpp */; };
 		21219A04260DF7260042B241 /* 10-classes-vs-structs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21219A02260DF7260042B241 /* 10-classes-vs-structs.cpp */; };
+		21219A07260DFE250042B241 /* 11-class.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21219A05260DFE250042B241 /* 11-class.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -58,6 +59,8 @@
 		21219A00260DF2F30042B241 /* 9-classes.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "9-classes.hpp"; sourceTree = "<group>"; };
 		21219A02260DF7260042B241 /* 10-classes-vs-structs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "10-classes-vs-structs.cpp"; sourceTree = "<group>"; };
 		21219A03260DF7260042B241 /* 10-classes-vs-structs.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "10-classes-vs-structs.hpp"; sourceTree = "<group>"; };
+		21219A05260DFE250042B241 /* 11-class.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "11-class.cpp"; sourceTree = "<group>"; };
+		21219A06260DFE250042B241 /* 11-class.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "11-class.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				21219A00260DF2F30042B241 /* 9-classes.hpp */,
 				21219A02260DF7260042B241 /* 10-classes-vs-structs.cpp */,
 				21219A03260DF7260042B241 /* 10-classes-vs-structs.hpp */,
+				21219A05260DFE250042B241 /* 11-class.cpp */,
+				21219A06260DFE250042B241 /* 11-class.hpp */,
 			);
 			path = "cherno-c++";
 			sourceTree = "<group>";
@@ -173,6 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21219A07260DFE250042B241 /* 11-class.cpp in Sources */,
 				212199E6260DB33C0042B241 /* Log.cpp in Sources */,
 				21219A04260DF7260042B241 /* 10-classes-vs-structs.cpp in Sources */,
 				212199DE260DA7010042B241 /* main.cpp in Sources */,

@@ -27,7 +27,7 @@ struct Vec2 {
         x += other.x;
         y += other.y;
     }
-}
+};
 
 void Structs() {
     std::cout <<  "CLASSES VS STRUCTS" << std::endl;

@@ -18,7 +18,7 @@
 #include "8-references.hpp"
 #include "9-classes.hpp"
 #include "10-classes-vs-structs.hpp"
-
+#include "11-class.hpp"
 
 int main() {
     Variables();
@@ -31,6 +31,7 @@ int main() {
     References();
     Classes();
     Structs();
-    
-    std::cin.get();
+    MakeClassV1();
+
+    //    std::cin.get();
 }
