@@ -28,4 +28,5 @@ void Functions() {
     MultiplyAndLog(4, 5);
     MultiplyAndLog(6, 2);
     
+    std::cout << std::endl << std::endl;
 }

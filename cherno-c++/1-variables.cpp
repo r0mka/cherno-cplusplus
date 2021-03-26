@@ -43,4 +43,6 @@ void Variables() {
     std::cout << b << std::endl;
     std::cout << "Size of float: " << sizeof(f) << std::endl;
     std::cout << "Size of double: " << sizeof(d) << std::endl;
+    
+    std::cout << std::endl << std::endl;
 }

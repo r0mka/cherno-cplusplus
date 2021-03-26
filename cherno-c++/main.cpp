@@ -7,18 +7,18 @@
 //
 
 #include <iostream>
-#include "3-header-files.hpp"
+
 #include "1-variables.hpp"
 #include "2-functions.hpp"
+#include "3-header-files.hpp"
+#include "4-conditionals.hpp"
 
 
 int main() {
-    // Lesson 3 Header Files
-    HeaderFiles();
-    std::cout << std::endl << std::endl;
     Variables();
-    std::cout << std::endl << std::endl;
     Functions();
-    std::cout << std::endl << std::endl;
+    HeaderFiles();
+    Conditionals();
+    
     std::cin.get();
 }

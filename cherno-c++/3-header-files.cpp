@@ -14,6 +14,8 @@ void HeaderFiles() {
     std::cout << "HEADER FILES" << std::endl;
     InitLog();
     Log("Hello World");
+    
+    std::cout << std::endl << std::endl;
 }
 
 
