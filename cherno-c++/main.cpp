@@ -17,6 +17,8 @@
 #include "7-pointers.hpp"
 #include "8-references.hpp"
 #include "9-classes.hpp"
+#include "10-classes-vs-structs.hpp"
+
 
 int main() {
     Variables();
@@ -28,5 +30,7 @@ int main() {
     Pointers();
     References();
     Classes();
+    Structs();
+    
     std::cin.get();
 }
