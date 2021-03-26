@@ -7,10 +7,11 @@
 //
 
 #include "3-header-files.hpp"
-#include "Log.hpp";
-
+#include "Log.hpp"
+#include <iostream>
 
 void HeaderFiles() {
+    std::cout << "HEADER FILES" << std::endl;
     InitLog();
     Log("Hello World");
 }

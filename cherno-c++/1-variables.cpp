@@ -11,6 +11,7 @@
 #include <iostream>
 
 void Variables() {
+    std::cout << "VARIABLES" << std::endl;
     // char - 1 byte
     // short - 2 bytes
     // int -  4 bytes

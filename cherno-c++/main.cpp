@@ -9,14 +9,16 @@
 #include <iostream>
 #include "3-header-files.hpp"
 #include "1-variables.hpp"
+#include "2-functions.hpp"
 
 
 int main() {
-    std::cout << std::endl;
-    std::cout << "HEADER FILES" << std::endl;
-    
     // Lesson 3 Header Files
     HeaderFiles();
+    std::cout << std::endl << std::endl;
     Variables();
+    std::cout << std::endl << std::endl;
+    Functions();
+    std::cout << std::endl << std::endl;
     std::cin.get();
 }
