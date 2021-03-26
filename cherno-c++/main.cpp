@@ -7,10 +7,13 @@
 //
 
 #include <iostream>
+#include "3-header-files.hpp";
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    int a = 5; 
-    std::cout << "Hello, World!\n";
-    return 0;
+int main() {
+    std::cout << std::endl;
+    std::cout << "HEADER FILES" << std::endl;
+    
+    // Lesson 3 Header Files
+    HeaderFiles();
+    std::cin.get();
 }
