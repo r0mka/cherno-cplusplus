@@ -15,6 +15,7 @@
 		212199F2260DC4210042B241 /* 4-conditionals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 212199F0260DC4210042B241 /* 4-conditionals.cpp */; };
 		212199F5260DCEC50042B241 /* 5-loops.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 212199F3260DCEC50042B241 /* 5-loops.cpp */; };
 		212199F8260DD6680042B241 /* 6-control-flow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 212199F6260DD6680042B241 /* 6-control-flow.cpp */; };
+		212199FB260DDA050042B241 /* 7-pointers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 212199F9260DDA050042B241 /* 7-pointers.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +47,8 @@
 		212199F4260DCEC50042B241 /* 5-loops.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "5-loops.hpp"; sourceTree = "<group>"; };
 		212199F6260DD6680042B241 /* 6-control-flow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "6-control-flow.cpp"; sourceTree = "<group>"; };
 		212199F7260DD6680042B241 /* 6-control-flow.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "6-control-flow.hpp"; sourceTree = "<group>"; };
+		212199F9260DDA050042B241 /* 7-pointers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "7-pointers.cpp"; sourceTree = "<group>"; };
+		212199FA260DDA050042B241 /* 7-pointers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "7-pointers.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 				212199F4260DCEC50042B241 /* 5-loops.hpp */,
 				212199F6260DD6680042B241 /* 6-control-flow.cpp */,
 				212199F7260DD6680042B241 /* 6-control-flow.hpp */,
+				212199F9260DDA050042B241 /* 7-pointers.cpp */,
+				212199FA260DDA050042B241 /* 7-pointers.hpp */,
 			);
 			path = "cherno-c++";
 			sourceTree = "<group>";
@@ -158,6 +163,7 @@
 				212199E9260DBAA70042B241 /* 3-header-files.cpp in Sources */,
 				212199EC260DBBBC0042B241 /* 1-variables.cpp in Sources */,
 				212199F8260DD6680042B241 /* 6-control-flow.cpp in Sources */,
+				212199FB260DDA050042B241 /* 7-pointers.cpp in Sources */,
 				212199F2260DC4210042B241 /* 4-conditionals.cpp in Sources */,
 				212199F5260DCEC50042B241 /* 5-loops.cpp in Sources */,
 				212199EF260DBC390042B241 /* 2-functions.cpp in Sources */,

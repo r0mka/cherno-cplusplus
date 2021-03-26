@@ -12,9 +12,9 @@
 #include "2-functions.hpp"
 #include "3-header-files.hpp"
 #include "4-conditionals.hpp"
-#include "5-loops.hpp";
-#include "6-control-flow.hpp";
-
+#include "5-loops.hpp"
+#include "6-control-flow.hpp"
+#include "7-pointers.hpp"
 int main() {
     Variables();
     Functions();
@@ -22,6 +22,6 @@ int main() {
     Conditionals();
     Loops();
     ControlFlow();
-    
+    Pointers();
     std::cin.get();
 }
