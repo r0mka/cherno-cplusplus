@@ -17,6 +17,7 @@
 		212199F8260DD6680042B241 /* 6-control-flow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 212199F6260DD6680042B241 /* 6-control-flow.cpp */; };
 		212199FB260DDA050042B241 /* 7-pointers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 212199F9260DDA050042B241 /* 7-pointers.cpp */; };
 		212199FE260DEC000042B241 /* 8-references.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 212199FC260DEC000042B241 /* 8-references.cpp */; };
+		21219A01260DF2F30042B241 /* 9-classes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 212199FF260DF2F30042B241 /* 9-classes.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,6 +53,8 @@
 		212199FA260DDA050042B241 /* 7-pointers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "7-pointers.hpp"; sourceTree = "<group>"; };
 		212199FC260DEC000042B241 /* 8-references.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "8-references.cpp"; sourceTree = "<group>"; };
 		212199FD260DEC000042B241 /* 8-references.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "8-references.hpp"; sourceTree = "<group>"; };
+		212199FF260DF2F30042B241 /* 9-classes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "9-classes.cpp"; sourceTree = "<group>"; };
+		21219A00260DF2F30042B241 /* 9-classes.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "9-classes.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 				212199FA260DDA050042B241 /* 7-pointers.hpp */,
 				212199FC260DEC000042B241 /* 8-references.cpp */,
 				212199FD260DEC000042B241 /* 8-references.hpp */,
+				212199FF260DF2F30042B241 /* 9-classes.cpp */,
+				21219A00260DF2F30042B241 /* 9-classes.hpp */,
 			);
 			path = "cherno-c++";
 			sourceTree = "<group>";
@@ -173,6 +178,7 @@
 				212199F2260DC4210042B241 /* 4-conditionals.cpp in Sources */,
 				212199F5260DCEC50042B241 /* 5-loops.cpp in Sources */,
 				212199EF260DBC390042B241 /* 2-functions.cpp in Sources */,
+				21219A01260DF2F30042B241 /* 9-classes.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

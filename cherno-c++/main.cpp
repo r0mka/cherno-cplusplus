@@ -16,6 +16,7 @@
 #include "6-control-flow.hpp"
 #include "7-pointers.hpp"
 #include "8-references.hpp"
+#include "9-classes.hpp"
 
 int main() {
     Variables();
@@ -26,5 +27,6 @@ int main() {
     ControlFlow();
     Pointers();
     References();
+    Classes();
     std::cin.get();
 }
