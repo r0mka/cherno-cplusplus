@@ -12,13 +12,14 @@
 #include "2-functions.hpp"
 #include "3-header-files.hpp"
 #include "4-conditionals.hpp"
-
+#include "5-loops.hpp";
 
 int main() {
     Variables();
     Functions();
     HeaderFiles();
     Conditionals();
+    Loops();
     
     std::cin.get();
 }
