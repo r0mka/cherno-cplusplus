@@ -52,4 +52,6 @@ void Loops(){
         Log("Hello World\n");
         i++;
     } while(i < 5);
+    
+    std::cout << std::endl << std::endl;
 }

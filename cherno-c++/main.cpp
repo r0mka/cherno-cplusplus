@@ -13,6 +13,7 @@
 #include "3-header-files.hpp"
 #include "4-conditionals.hpp"
 #include "5-loops.hpp";
+#include "6-control-flow.hpp";
 
 int main() {
     Variables();
@@ -20,6 +21,7 @@ int main() {
     HeaderFiles();
     Conditionals();
     Loops();
+    ControlFlow();
     
     std::cin.get();
 }
