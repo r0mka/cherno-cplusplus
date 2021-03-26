@@ -15,6 +15,8 @@
 #include "5-loops.hpp"
 #include "6-control-flow.hpp"
 #include "7-pointers.hpp"
+#include "8-references.hpp"
+
 int main() {
     Variables();
     Functions();
@@ -23,5 +25,6 @@ int main() {
     Loops();
     ControlFlow();
     Pointers();
+    References();
     std::cin.get();
 }
