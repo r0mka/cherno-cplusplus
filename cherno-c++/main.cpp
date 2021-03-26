@@ -7,7 +7,9 @@
 //
 
 #include <iostream>
-#include "3-header-files.hpp";
+#include "3-header-files.hpp"
+#include "1-variables.hpp"
+
 
 int main() {
     std::cout << std::endl;
@@ -15,5 +17,6 @@ int main() {
     
     // Lesson 3 Header Files
     HeaderFiles();
+    Variables();
     std::cin.get();
 }
