@@ -23,6 +23,7 @@
 		215BAE0826103CDB006E7BD8 /* 12-static.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215BAE0626103CDB006E7BD8 /* 12-static.cpp */; };
 		215BAE0B261041F5006E7BD8 /* 13-static-in-class.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215BAE09261041F5006E7BD8 /* 13-static-in-class.cpp */; };
 		215BAE0E26105534006E7BD8 /* 14-local-static.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215BAE0C26105534006E7BD8 /* 14-local-static.cpp */; };
+		215BAE11261059C9006E7BD8 /* 15-enums.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215BAE0F261059C9006E7BD8 /* 15-enums.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -71,6 +72,8 @@
 		215BAE0A261041F5006E7BD8 /* 13-static-in-class.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "13-static-in-class.hpp"; sourceTree = "<group>"; };
 		215BAE0C26105534006E7BD8 /* 14-local-static.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "14-local-static.cpp"; sourceTree = "<group>"; };
 		215BAE0D26105534006E7BD8 /* 14-local-static.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "14-local-static.hpp"; sourceTree = "<group>"; };
+		215BAE0F261059C9006E7BD8 /* 15-enums.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "15-enums.cpp"; sourceTree = "<group>"; };
+		215BAE10261059C9006E7BD8 /* 15-enums.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "15-enums.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +138,8 @@
 				215BAE0A261041F5006E7BD8 /* 13-static-in-class.hpp */,
 				215BAE0C26105534006E7BD8 /* 14-local-static.cpp */,
 				215BAE0D26105534006E7BD8 /* 14-local-static.hpp */,
+				215BAE0F261059C9006E7BD8 /* 15-enums.cpp */,
+				215BAE10261059C9006E7BD8 /* 15-enums.hpp */,
 			);
 			path = "cherno-c++";
 			sourceTree = "<group>";
@@ -197,6 +202,7 @@
 			files = (
 				215BAE0826103CDB006E7BD8 /* 12-static.cpp in Sources */,
 				21219A07260DFE250042B241 /* 11-class.cpp in Sources */,
+				215BAE11261059C9006E7BD8 /* 15-enums.cpp in Sources */,
 				212199E6260DB33C0042B241 /* Log.cpp in Sources */,
 				21219A04260DF7260042B241 /* 10-classes-vs-structs.cpp in Sources */,
 				212199DE260DA7010042B241 /* main.cpp in Sources */,
