@@ -21,7 +21,7 @@
 #include "11-class.hpp"
 #include "12-static.hpp"
 #include "13-static-in-class.hpp"
-
+#include "14-local-static.hpp"
 
 #define INTEGER int
 
@@ -57,7 +57,9 @@ int main() {
 //    Static();
 //    std:: cout << "Static variable: " << s_Variable << std::endl << std::endl;
     
-    StaticInClassAndStruct();
+//    StaticInClassAndStruct();
+    
+    LocalStatic();
     //    std::cin.get();
 
     
