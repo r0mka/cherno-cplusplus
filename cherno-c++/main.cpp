@@ -20,6 +20,8 @@
 #include "10-classes-vs-structs.hpp"
 #include "11-class.hpp"
 #include "12-static.hpp"
+#include "13-static-in-class.hpp"
+
 
 #define INTEGER int
 
@@ -39,20 +41,23 @@ INTEGER Divide(INTEGER a, INTEGER b){
 int s_Variable = 6;
 
 int main() {
-    Divide(12, 4);
-    Variables();
-    Functions();
-    HeaderFiles();
-    Conditionals();
-    Loops();
-    ControlFlow();
-    Pointers();
-    References();
-    Classes();
-    Structs();
-    MakeClassV1();
-    Static();
-    std:: cout << "Static variable: " << s_Variable << std::endl;
+//    Divide(12, 4);
+//    Variables();
+//    Functions();
+//    HeaderFiles();
+//    Conditionals();
+//    Loops();
+//    ControlFlow();
+//    Pointers();
+//    References();
+//    Classes();
+//    Structs();
+//    MakeClassV1();
+//    
+//    Static();
+//    std:: cout << "Static variable: " << s_Variable << std::endl << std::endl;
+    
+    StaticInClassAndStruct();
     //    std::cin.get();
 
     

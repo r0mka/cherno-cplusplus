@@ -18,7 +18,4 @@ static int s_Variable = 5;
 void Static() {
     std::cout <<  "STATIC" << std::endl;
     std:: cout << "Static variable: " << s_Variable << std::endl;
-    
-    
-    std::cout << std::endl << std::endl;
 }

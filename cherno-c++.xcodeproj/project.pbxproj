@@ -21,6 +21,7 @@
 		21219A04260DF7260042B241 /* 10-classes-vs-structs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21219A02260DF7260042B241 /* 10-classes-vs-structs.cpp */; };
 		21219A07260DFE250042B241 /* 11-class.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21219A05260DFE250042B241 /* 11-class.cpp */; };
 		215BAE0826103CDB006E7BD8 /* 12-static.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215BAE0626103CDB006E7BD8 /* 12-static.cpp */; };
+		215BAE0B261041F5006E7BD8 /* 13-static-in-class.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215BAE09261041F5006E7BD8 /* 13-static-in-class.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -65,6 +66,8 @@
 		215BAE0426102C9E006E7BD8 /* EndBrace.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EndBrace.hpp; sourceTree = "<group>"; };
 		215BAE0626103CDB006E7BD8 /* 12-static.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "12-static.cpp"; sourceTree = "<group>"; };
 		215BAE0726103CDB006E7BD8 /* 12-static.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "12-static.hpp"; sourceTree = "<group>"; };
+		215BAE09261041F5006E7BD8 /* 13-static-in-class.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "13-static-in-class.cpp"; sourceTree = "<group>"; };
+		215BAE0A261041F5006E7BD8 /* 13-static-in-class.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "13-static-in-class.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 				215BAE0426102C9E006E7BD8 /* EndBrace.hpp */,
 				215BAE0626103CDB006E7BD8 /* 12-static.cpp */,
 				215BAE0726103CDB006E7BD8 /* 12-static.hpp */,
+				215BAE09261041F5006E7BD8 /* 13-static-in-class.cpp */,
+				215BAE0A261041F5006E7BD8 /* 13-static-in-class.hpp */,
 			);
 			path = "cherno-c++";
 			sourceTree = "<group>";
@@ -195,6 +200,7 @@
 				212199FE260DEC000042B241 /* 8-references.cpp in Sources */,
 				212199F8260DD6680042B241 /* 6-control-flow.cpp in Sources */,
 				212199FB260DDA050042B241 /* 7-pointers.cpp in Sources */,
+				215BAE0B261041F5006E7BD8 /* 13-static-in-class.cpp in Sources */,
 				212199F2260DC4210042B241 /* 4-conditionals.cpp in Sources */,
 				212199F5260DCEC50042B241 /* 5-loops.cpp in Sources */,
 				212199EF260DBC390042B241 /* 2-functions.cpp in Sources */,
