@@ -23,6 +23,8 @@
 #include "13-static-in-class.hpp"
 #include "14-local-static.hpp"
 #include "15-enums.hpp"
+#include "16-constructors.hpp"
+
 
 #define INTEGER int
 
@@ -61,7 +63,8 @@ int main() {
 //    StaticInClassAndStruct();
 //    
 //    LocalStatic();
-    Enums();
+//    Enums();
+    Constructors();
     //    std::cin.get();
 
     

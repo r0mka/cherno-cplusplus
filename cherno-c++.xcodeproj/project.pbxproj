@@ -24,6 +24,7 @@
 		215BAE0B261041F5006E7BD8 /* 13-static-in-class.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215BAE09261041F5006E7BD8 /* 13-static-in-class.cpp */; };
 		215BAE0E26105534006E7BD8 /* 14-local-static.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215BAE0C26105534006E7BD8 /* 14-local-static.cpp */; };
 		215BAE11261059C9006E7BD8 /* 15-enums.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215BAE0F261059C9006E7BD8 /* 15-enums.cpp */; };
+		215BAE1426106761006E7BD8 /* 16-constructors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215BAE1226106761006E7BD8 /* 16-constructors.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -74,6 +75,8 @@
 		215BAE0D26105534006E7BD8 /* 14-local-static.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "14-local-static.hpp"; sourceTree = "<group>"; };
 		215BAE0F261059C9006E7BD8 /* 15-enums.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "15-enums.cpp"; sourceTree = "<group>"; };
 		215BAE10261059C9006E7BD8 /* 15-enums.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "15-enums.hpp"; sourceTree = "<group>"; };
+		215BAE1226106761006E7BD8 /* 16-constructors.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "16-constructors.cpp"; sourceTree = "<group>"; };
+		215BAE1326106761006E7BD8 /* 16-constructors.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "16-constructors.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +143,8 @@
 				215BAE0D26105534006E7BD8 /* 14-local-static.hpp */,
 				215BAE0F261059C9006E7BD8 /* 15-enums.cpp */,
 				215BAE10261059C9006E7BD8 /* 15-enums.hpp */,
+				215BAE1226106761006E7BD8 /* 16-constructors.cpp */,
+				215BAE1326106761006E7BD8 /* 16-constructors.hpp */,
 			);
 			path = "cherno-c++";
 			sourceTree = "<group>";
@@ -215,6 +220,7 @@
 				215BAE0B261041F5006E7BD8 /* 13-static-in-class.cpp in Sources */,
 				212199F2260DC4210042B241 /* 4-conditionals.cpp in Sources */,
 				212199F5260DCEC50042B241 /* 5-loops.cpp in Sources */,
+				215BAE1426106761006E7BD8 /* 16-constructors.cpp in Sources */,
 				212199EF260DBC390042B241 /* 2-functions.cpp in Sources */,
 				21219A01260DF2F30042B241 /* 9-classes.cpp in Sources */,
 			);
