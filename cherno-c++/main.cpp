@@ -19,6 +19,7 @@
 #include "9-classes.hpp"
 #include "10-classes-vs-structs.hpp"
 #include "11-class.hpp"
+#include "12-static.hpp"
 
 #define INTEGER int
 
@@ -30,6 +31,12 @@ INTEGER Divide(INTEGER a, INTEGER b){
     return a / b;
 }
 #endif
+
+// it's going to look for this variable in an external translation unit which is called external linkage
+//extern int s_Variable;
+
+// 11-static example
+int s_Variable = 6;
 
 int main() {
     Divide(12, 4);
@@ -44,7 +51,8 @@ int main() {
     Classes();
     Structs();
     MakeClassV1();
-
+    Static();
+    std:: cout << "Static variable: " << s_Variable << std::endl;
     //    std::cin.get();
 
     

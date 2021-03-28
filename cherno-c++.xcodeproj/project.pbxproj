@@ -20,6 +20,7 @@
 		21219A01260DF2F30042B241 /* 9-classes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 212199FF260DF2F30042B241 /* 9-classes.cpp */; };
 		21219A04260DF7260042B241 /* 10-classes-vs-structs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21219A02260DF7260042B241 /* 10-classes-vs-structs.cpp */; };
 		21219A07260DFE250042B241 /* 11-class.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21219A05260DFE250042B241 /* 11-class.cpp */; };
+		215BAE0826103CDB006E7BD8 /* 12-static.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215BAE0626103CDB006E7BD8 /* 12-static.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -62,6 +63,8 @@
 		21219A05260DFE250042B241 /* 11-class.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "11-class.cpp"; sourceTree = "<group>"; };
 		21219A06260DFE250042B241 /* 11-class.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "11-class.hpp"; sourceTree = "<group>"; };
 		215BAE0426102C9E006E7BD8 /* EndBrace.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EndBrace.hpp; sourceTree = "<group>"; };
+		215BAE0626103CDB006E7BD8 /* 12-static.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "12-static.cpp"; sourceTree = "<group>"; };
+		215BAE0726103CDB006E7BD8 /* 12-static.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "12-static.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				21219A05260DFE250042B241 /* 11-class.cpp */,
 				21219A06260DFE250042B241 /* 11-class.hpp */,
 				215BAE0426102C9E006E7BD8 /* EndBrace.hpp */,
+				215BAE0626103CDB006E7BD8 /* 12-static.cpp */,
+				215BAE0726103CDB006E7BD8 /* 12-static.hpp */,
 			);
 			path = "cherno-c++";
 			sourceTree = "<group>";
@@ -180,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				215BAE0826103CDB006E7BD8 /* 12-static.cpp in Sources */,
 				21219A07260DFE250042B241 /* 11-class.cpp in Sources */,
 				212199E6260DB33C0042B241 /* Log.cpp in Sources */,
 				21219A04260DF7260042B241 /* 10-classes-vs-structs.cpp in Sources */,
