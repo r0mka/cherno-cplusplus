@@ -20,7 +20,19 @@
 #include "10-classes-vs-structs.hpp"
 #include "11-class.hpp"
 
+#define INTEGER int
+
+// this preproccessor statement allows us to include or exclude code depending on the condition
+// if true include the following code until #endif
+#if 1
+INTEGER Divide(INTEGER a, INTEGER b){
+    std::cout << "Divide " << a << " by " << b  << " equals " << a / b << std::endl;
+    return a / b;
+}
+#endif
+
 int main() {
+    Divide(12, 4);
     Variables();
     Functions();
     HeaderFiles();
@@ -34,4 +46,9 @@ int main() {
     MakeClassV1();
 
     //    std::cin.get();
-}
+
+    
+// Just a demo of how header files work. This one containes the missing brace
+#include "EndBrace.hpp"
+
+

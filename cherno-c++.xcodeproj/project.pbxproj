@@ -61,6 +61,7 @@
 		21219A03260DF7260042B241 /* 10-classes-vs-structs.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "10-classes-vs-structs.hpp"; sourceTree = "<group>"; };
 		21219A05260DFE250042B241 /* 11-class.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "11-class.cpp"; sourceTree = "<group>"; };
 		21219A06260DFE250042B241 /* 11-class.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "11-class.hpp"; sourceTree = "<group>"; };
+		215BAE0426102C9E006E7BD8 /* EndBrace.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EndBrace.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +119,7 @@
 				21219A03260DF7260042B241 /* 10-classes-vs-structs.hpp */,
 				21219A05260DFE250042B241 /* 11-class.cpp */,
 				21219A06260DFE250042B241 /* 11-class.hpp */,
+				215BAE0426102C9E006E7BD8 /* EndBrace.hpp */,
 			);
 			path = "cherno-c++";
 			sourceTree = "<group>";
