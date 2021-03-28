@@ -27,6 +27,7 @@
 		215BAE1426106761006E7BD8 /* 16-constructors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215BAE1226106761006E7BD8 /* 16-constructors.cpp */; };
 		215BAE17261073EC006E7BD8 /* 17-inheritance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215BAE15261073EC006E7BD8 /* 17-inheritance.cpp */; };
 		215BAE1A26107B8A006E7BD8 /* 18-virtual-functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215BAE1826107B8A006E7BD8 /* 18-virtual-functions.cpp */; };
+		215BAE1D261089DB006E7BD8 /* 19-interfaces.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215BAE1B261089DB006E7BD8 /* 19-interfaces.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -83,6 +84,8 @@
 		215BAE16261073EC006E7BD8 /* 17-inheritance.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "17-inheritance.hpp"; sourceTree = "<group>"; };
 		215BAE1826107B8A006E7BD8 /* 18-virtual-functions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "18-virtual-functions.cpp"; sourceTree = "<group>"; };
 		215BAE1926107B8A006E7BD8 /* 18-virtual-functions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "18-virtual-functions.hpp"; sourceTree = "<group>"; };
+		215BAE1B261089DB006E7BD8 /* 19-interfaces.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "19-interfaces.cpp"; sourceTree = "<group>"; };
+		215BAE1C261089DB006E7BD8 /* 19-interfaces.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "19-interfaces.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +158,8 @@
 				215BAE16261073EC006E7BD8 /* 17-inheritance.hpp */,
 				215BAE1826107B8A006E7BD8 /* 18-virtual-functions.cpp */,
 				215BAE1926107B8A006E7BD8 /* 18-virtual-functions.hpp */,
+				215BAE1B261089DB006E7BD8 /* 19-interfaces.cpp */,
+				215BAE1C261089DB006E7BD8 /* 19-interfaces.hpp */,
 			);
 			path = "cherno-c++";
 			sourceTree = "<group>";
@@ -221,6 +226,7 @@
 				21219A07260DFE250042B241 /* 11-class.cpp in Sources */,
 				215BAE11261059C9006E7BD8 /* 15-enums.cpp in Sources */,
 				212199E6260DB33C0042B241 /* Log.cpp in Sources */,
+				215BAE1D261089DB006E7BD8 /* 19-interfaces.cpp in Sources */,
 				21219A04260DF7260042B241 /* 10-classes-vs-structs.cpp in Sources */,
 				212199DE260DA7010042B241 /* main.cpp in Sources */,
 				212199E9260DBAA70042B241 /* 3-header-files.cpp in Sources */,

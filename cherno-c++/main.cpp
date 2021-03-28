@@ -26,7 +26,7 @@
 #include "16-constructors.hpp"
 #include "17-inheritance.hpp"
 #include "18-virtual-functions.hpp"
-
+#include "19-interfaces.hpp"
 
 #define INTEGER int
 
@@ -68,7 +68,9 @@ int main() {
 //    Enums();
 //    Constructors();
 //    Inheritance();
-    VirtualFunctions();
+//    VirtualFunctions();
+//    Inheritance();
+    Interfaces();
     //    std::cin.get();
 
     
