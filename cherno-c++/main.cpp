@@ -25,6 +25,8 @@
 #include "15-enums.hpp"
 #include "16-constructors.hpp"
 #include "17-inheritance.hpp"
+#include "18-virtual-functions.hpp"
+
 
 #define INTEGER int
 
@@ -65,7 +67,8 @@ int main() {
 //    LocalStatic();
 //    Enums();
 //    Constructors();
-    Inheritance();
+//    Inheritance();
+    VirtualFunctions();
     //    std::cin.get();
 
     

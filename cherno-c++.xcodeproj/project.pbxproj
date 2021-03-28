@@ -26,6 +26,7 @@
 		215BAE11261059C9006E7BD8 /* 15-enums.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215BAE0F261059C9006E7BD8 /* 15-enums.cpp */; };
 		215BAE1426106761006E7BD8 /* 16-constructors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215BAE1226106761006E7BD8 /* 16-constructors.cpp */; };
 		215BAE17261073EC006E7BD8 /* 17-inheritance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215BAE15261073EC006E7BD8 /* 17-inheritance.cpp */; };
+		215BAE1A26107B8A006E7BD8 /* 18-virtual-functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215BAE1826107B8A006E7BD8 /* 18-virtual-functions.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -80,6 +81,8 @@
 		215BAE1326106761006E7BD8 /* 16-constructors.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "16-constructors.hpp"; sourceTree = "<group>"; };
 		215BAE15261073EC006E7BD8 /* 17-inheritance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "17-inheritance.cpp"; sourceTree = "<group>"; };
 		215BAE16261073EC006E7BD8 /* 17-inheritance.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "17-inheritance.hpp"; sourceTree = "<group>"; };
+		215BAE1826107B8A006E7BD8 /* 18-virtual-functions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "18-virtual-functions.cpp"; sourceTree = "<group>"; };
+		215BAE1926107B8A006E7BD8 /* 18-virtual-functions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "18-virtual-functions.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +153,8 @@
 				215BAE1326106761006E7BD8 /* 16-constructors.hpp */,
 				215BAE15261073EC006E7BD8 /* 17-inheritance.cpp */,
 				215BAE16261073EC006E7BD8 /* 17-inheritance.hpp */,
+				215BAE1826107B8A006E7BD8 /* 18-virtual-functions.cpp */,
+				215BAE1926107B8A006E7BD8 /* 18-virtual-functions.hpp */,
 			);
 			path = "cherno-c++";
 			sourceTree = "<group>";
@@ -210,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				215BAE1A26107B8A006E7BD8 /* 18-virtual-functions.cpp in Sources */,
 				215BAE0826103CDB006E7BD8 /* 12-static.cpp in Sources */,
 				215BAE17261073EC006E7BD8 /* 17-inheritance.cpp in Sources */,
 				21219A07260DFE250042B241 /* 11-class.cpp in Sources */,
