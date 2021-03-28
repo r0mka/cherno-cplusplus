@@ -24,7 +24,7 @@
 #include "14-local-static.hpp"
 #include "15-enums.hpp"
 #include "16-constructors.hpp"
-
+#include "17-inheritance.hpp"
 
 #define INTEGER int
 
@@ -64,7 +64,8 @@ int main() {
 //    
 //    LocalStatic();
 //    Enums();
-    Constructors();
+//    Constructors();
+    Inheritance();
     //    std::cin.get();
 
     
