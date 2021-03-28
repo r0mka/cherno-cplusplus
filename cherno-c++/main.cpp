@@ -27,6 +27,7 @@
 #include "17-inheritance.hpp"
 #include "18-virtual-functions.hpp"
 #include "19-interfaces.hpp"
+#include "20-arrays.hpp"
 
 #define INTEGER int
 
@@ -70,7 +71,8 @@ int main() {
 //    Inheritance();
 //    VirtualFunctions();
 //    Inheritance();
-    Interfaces();
+//    Interfaces();
+    Arrays();
     //    std::cin.get();
 
     

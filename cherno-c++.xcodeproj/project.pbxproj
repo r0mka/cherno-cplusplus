@@ -28,6 +28,7 @@
 		215BAE17261073EC006E7BD8 /* 17-inheritance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215BAE15261073EC006E7BD8 /* 17-inheritance.cpp */; };
 		215BAE1A26107B8A006E7BD8 /* 18-virtual-functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215BAE1826107B8A006E7BD8 /* 18-virtual-functions.cpp */; };
 		215BAE1D261089DB006E7BD8 /* 19-interfaces.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215BAE1B261089DB006E7BD8 /* 19-interfaces.cpp */; };
+		215BAE202610AF39006E7BD8 /* 20-arrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215BAE1E2610AF39006E7BD8 /* 20-arrays.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -86,6 +87,8 @@
 		215BAE1926107B8A006E7BD8 /* 18-virtual-functions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "18-virtual-functions.hpp"; sourceTree = "<group>"; };
 		215BAE1B261089DB006E7BD8 /* 19-interfaces.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "19-interfaces.cpp"; sourceTree = "<group>"; };
 		215BAE1C261089DB006E7BD8 /* 19-interfaces.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "19-interfaces.hpp"; sourceTree = "<group>"; };
+		215BAE1E2610AF39006E7BD8 /* 20-arrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "20-arrays.cpp"; sourceTree = "<group>"; };
+		215BAE1F2610AF39006E7BD8 /* 20-arrays.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "20-arrays.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +163,8 @@
 				215BAE1926107B8A006E7BD8 /* 18-virtual-functions.hpp */,
 				215BAE1B261089DB006E7BD8 /* 19-interfaces.cpp */,
 				215BAE1C261089DB006E7BD8 /* 19-interfaces.hpp */,
+				215BAE1E2610AF39006E7BD8 /* 20-arrays.cpp */,
+				215BAE1F2610AF39006E7BD8 /* 20-arrays.hpp */,
 			);
 			path = "cherno-c++";
 			sourceTree = "<group>";
@@ -223,6 +228,7 @@
 				215BAE1A26107B8A006E7BD8 /* 18-virtual-functions.cpp in Sources */,
 				215BAE0826103CDB006E7BD8 /* 12-static.cpp in Sources */,
 				215BAE17261073EC006E7BD8 /* 17-inheritance.cpp in Sources */,
+				215BAE202610AF39006E7BD8 /* 20-arrays.cpp in Sources */,
 				21219A07260DFE250042B241 /* 11-class.cpp in Sources */,
 				215BAE11261059C9006E7BD8 /* 15-enums.cpp in Sources */,
 				212199E6260DB33C0042B241 /* Log.cpp in Sources */,
