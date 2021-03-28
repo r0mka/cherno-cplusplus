@@ -17,7 +17,13 @@ public:
     Entity(float x , float y){
         X = x;
         Y = y;
+        std::cout << "Constructed Entity\n";
     }
+    
+    ~Entity(){
+        std::cout << "Destroyed Entity\n";
+    }
+    
     void Print() {
         std::cout << X << ", " << Y << std::endl;
     }
