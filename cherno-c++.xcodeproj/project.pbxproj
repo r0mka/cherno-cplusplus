@@ -32,6 +32,7 @@
 		215BAE232610B7DA006E7BD8 /* 21-strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215BAE212610B7DA006E7BD8 /* 21-strings.cpp */; };
 		217D50AE2611525D00557368 /* 22-string-literals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 217D50AC2611525D00557368 /* 22-string-literals.cpp */; };
 		217D50B126115BEF00557368 /* 23-const.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 217D50AF26115BEF00557368 /* 23-const.cpp */; };
+		217D50B4261162C200557368 /* 24-mutable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 217D50B2261162C200557368 /* 24-mutable.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -98,6 +99,8 @@
 		217D50AD2611525D00557368 /* 22-string-literals.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "22-string-literals.hpp"; sourceTree = "<group>"; };
 		217D50AF26115BEF00557368 /* 23-const.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "23-const.cpp"; sourceTree = "<group>"; };
 		217D50B026115BEF00557368 /* 23-const.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "23-const.hpp"; sourceTree = "<group>"; };
+		217D50B2261162C200557368 /* 24-mutable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "24-mutable.cpp"; sourceTree = "<group>"; };
+		217D50B3261162C200557368 /* 24-mutable.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "24-mutable.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +183,8 @@
 				217D50AD2611525D00557368 /* 22-string-literals.hpp */,
 				217D50AF26115BEF00557368 /* 23-const.cpp */,
 				217D50B026115BEF00557368 /* 23-const.hpp */,
+				217D50B2261162C200557368 /* 24-mutable.cpp */,
+				217D50B3261162C200557368 /* 24-mutable.hpp */,
 			);
 			path = "cherno-c++";
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 				212199E6260DB33C0042B241 /* Log.cpp in Sources */,
 				215BAE1D261089DB006E7BD8 /* 19-interfaces.cpp in Sources */,
 				21219A04260DF7260042B241 /* 10-classes-vs-structs.cpp in Sources */,
+				217D50B4261162C200557368 /* 24-mutable.cpp in Sources */,
 				212199DE260DA7010042B241 /* main.cpp in Sources */,
 				212199E9260DBAA70042B241 /* 3-header-files.cpp in Sources */,
 				215BAE0E26105534006E7BD8 /* 14-local-static.cpp in Sources */,

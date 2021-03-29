@@ -30,7 +30,8 @@
 #include "20-arrays.hpp"
 #include "21-strings.hpp"
 #include "22-string-literals.hpp"
-#include "23-const.hpp";
+#include "23-const.hpp"
+#include "24-mutable.hpp";
 
 #define INTEGER int
 
@@ -78,7 +79,8 @@ int main() {
 //    Arrays();
 //    Strings();
 //    StringLiterals();
-    Const();
+//    Const();
+    Mutable();
     
     //    std::cin.get();
 
