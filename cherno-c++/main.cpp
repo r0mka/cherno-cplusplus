@@ -28,6 +28,7 @@
 #include "18-virtual-functions.hpp"
 #include "19-interfaces.hpp"
 #include "20-arrays.hpp"
+#include "21-strings.hpp";
 
 #define INTEGER int
 
@@ -72,7 +73,8 @@ int main() {
 //    VirtualFunctions();
 //    Inheritance();
 //    Interfaces();
-    Arrays();
+//    Arrays();
+    Strings();
     //    std::cin.get();
 
     

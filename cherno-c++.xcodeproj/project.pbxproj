@@ -29,6 +29,7 @@
 		215BAE1A26107B8A006E7BD8 /* 18-virtual-functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215BAE1826107B8A006E7BD8 /* 18-virtual-functions.cpp */; };
 		215BAE1D261089DB006E7BD8 /* 19-interfaces.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215BAE1B261089DB006E7BD8 /* 19-interfaces.cpp */; };
 		215BAE202610AF39006E7BD8 /* 20-arrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215BAE1E2610AF39006E7BD8 /* 20-arrays.cpp */; };
+		215BAE232610B7DA006E7BD8 /* 21-strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215BAE212610B7DA006E7BD8 /* 21-strings.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -89,6 +90,8 @@
 		215BAE1C261089DB006E7BD8 /* 19-interfaces.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "19-interfaces.hpp"; sourceTree = "<group>"; };
 		215BAE1E2610AF39006E7BD8 /* 20-arrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "20-arrays.cpp"; sourceTree = "<group>"; };
 		215BAE1F2610AF39006E7BD8 /* 20-arrays.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "20-arrays.hpp"; sourceTree = "<group>"; };
+		215BAE212610B7DA006E7BD8 /* 21-strings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "21-strings.cpp"; sourceTree = "<group>"; };
+		215BAE222610B7DA006E7BD8 /* 21-strings.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "21-strings.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +168,8 @@
 				215BAE1C261089DB006E7BD8 /* 19-interfaces.hpp */,
 				215BAE1E2610AF39006E7BD8 /* 20-arrays.cpp */,
 				215BAE1F2610AF39006E7BD8 /* 20-arrays.hpp */,
+				215BAE212610B7DA006E7BD8 /* 21-strings.cpp */,
+				215BAE222610B7DA006E7BD8 /* 21-strings.hpp */,
 			);
 			path = "cherno-c++";
 			sourceTree = "<group>";
@@ -241,6 +246,7 @@
 				212199FE260DEC000042B241 /* 8-references.cpp in Sources */,
 				212199F8260DD6680042B241 /* 6-control-flow.cpp in Sources */,
 				212199FB260DDA050042B241 /* 7-pointers.cpp in Sources */,
+				215BAE232610B7DA006E7BD8 /* 21-strings.cpp in Sources */,
 				215BAE0B261041F5006E7BD8 /* 13-static-in-class.cpp in Sources */,
 				212199F2260DC4210042B241 /* 4-conditionals.cpp in Sources */,
 				212199F5260DCEC50042B241 /* 5-loops.cpp in Sources */,
