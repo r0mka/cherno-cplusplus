@@ -31,6 +31,7 @@
 		215BAE202610AF39006E7BD8 /* 20-arrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215BAE1E2610AF39006E7BD8 /* 20-arrays.cpp */; };
 		215BAE232610B7DA006E7BD8 /* 21-strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215BAE212610B7DA006E7BD8 /* 21-strings.cpp */; };
 		217D50AE2611525D00557368 /* 22-string-literals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 217D50AC2611525D00557368 /* 22-string-literals.cpp */; };
+		217D50B126115BEF00557368 /* 23-const.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 217D50AF26115BEF00557368 /* 23-const.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -95,6 +96,8 @@
 		215BAE222610B7DA006E7BD8 /* 21-strings.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "21-strings.hpp"; sourceTree = "<group>"; };
 		217D50AC2611525D00557368 /* 22-string-literals.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "22-string-literals.cpp"; sourceTree = "<group>"; };
 		217D50AD2611525D00557368 /* 22-string-literals.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "22-string-literals.hpp"; sourceTree = "<group>"; };
+		217D50AF26115BEF00557368 /* 23-const.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "23-const.cpp"; sourceTree = "<group>"; };
+		217D50B026115BEF00557368 /* 23-const.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "23-const.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +178,8 @@
 				215BAE222610B7DA006E7BD8 /* 21-strings.hpp */,
 				217D50AC2611525D00557368 /* 22-string-literals.cpp */,
 				217D50AD2611525D00557368 /* 22-string-literals.hpp */,
+				217D50AF26115BEF00557368 /* 23-const.cpp */,
+				217D50B026115BEF00557368 /* 23-const.hpp */,
 			);
 			path = "cherno-c++";
 			sourceTree = "<group>";
@@ -236,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				215BAE1A26107B8A006E7BD8 /* 18-virtual-functions.cpp in Sources */,
+				217D50B126115BEF00557368 /* 23-const.cpp in Sources */,
 				215BAE0826103CDB006E7BD8 /* 12-static.cpp in Sources */,
 				215BAE17261073EC006E7BD8 /* 17-inheritance.cpp in Sources */,
 				215BAE202610AF39006E7BD8 /* 20-arrays.cpp in Sources */,
