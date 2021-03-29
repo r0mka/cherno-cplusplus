@@ -28,7 +28,9 @@
 #include "18-virtual-functions.hpp"
 #include "19-interfaces.hpp"
 #include "20-arrays.hpp"
-#include "21-strings.hpp";
+#include "21-strings.hpp"
+#include "22-string-literals.hpp"
+
 
 #define INTEGER int
 
@@ -74,7 +76,9 @@ int main() {
 //    Inheritance();
 //    Interfaces();
 //    Arrays();
-    Strings();
+//    Strings();
+    StringLiterals();
+    
     //    std::cin.get();
 
     

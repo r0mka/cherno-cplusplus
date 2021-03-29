@@ -30,6 +30,7 @@
 		215BAE1D261089DB006E7BD8 /* 19-interfaces.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215BAE1B261089DB006E7BD8 /* 19-interfaces.cpp */; };
 		215BAE202610AF39006E7BD8 /* 20-arrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215BAE1E2610AF39006E7BD8 /* 20-arrays.cpp */; };
 		215BAE232610B7DA006E7BD8 /* 21-strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215BAE212610B7DA006E7BD8 /* 21-strings.cpp */; };
+		217D50AE2611525D00557368 /* 22-string-literals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 217D50AC2611525D00557368 /* 22-string-literals.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -92,6 +93,8 @@
 		215BAE1F2610AF39006E7BD8 /* 20-arrays.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "20-arrays.hpp"; sourceTree = "<group>"; };
 		215BAE212610B7DA006E7BD8 /* 21-strings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "21-strings.cpp"; sourceTree = "<group>"; };
 		215BAE222610B7DA006E7BD8 /* 21-strings.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "21-strings.hpp"; sourceTree = "<group>"; };
+		217D50AC2611525D00557368 /* 22-string-literals.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "22-string-literals.cpp"; sourceTree = "<group>"; };
+		217D50AD2611525D00557368 /* 22-string-literals.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "22-string-literals.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +173,8 @@
 				215BAE1F2610AF39006E7BD8 /* 20-arrays.hpp */,
 				215BAE212610B7DA006E7BD8 /* 21-strings.cpp */,
 				215BAE222610B7DA006E7BD8 /* 21-strings.hpp */,
+				217D50AC2611525D00557368 /* 22-string-literals.cpp */,
+				217D50AD2611525D00557368 /* 22-string-literals.hpp */,
 			);
 			path = "cherno-c++";
 			sourceTree = "<group>";
@@ -242,6 +247,7 @@
 				212199DE260DA7010042B241 /* main.cpp in Sources */,
 				212199E9260DBAA70042B241 /* 3-header-files.cpp in Sources */,
 				215BAE0E26105534006E7BD8 /* 14-local-static.cpp in Sources */,
+				217D50AE2611525D00557368 /* 22-string-literals.cpp in Sources */,
 				212199EC260DBBBC0042B241 /* 1-variables.cpp in Sources */,
 				212199FE260DEC000042B241 /* 8-references.cpp in Sources */,
 				212199F8260DD6680042B241 /* 6-control-flow.cpp in Sources */,
