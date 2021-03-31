@@ -31,7 +31,9 @@
 #include "21-strings.hpp"
 #include "22-string-literals.hpp"
 #include "23-const.hpp"
-#include "24-mutable.hpp";
+#include "24-mutable.hpp"
+#include "25-member-initializer.hpp"
+
 
 #define INTEGER int
 
@@ -80,7 +82,8 @@ int main() {
 //    Strings();
 //    StringLiterals();
 //    Const();
-    Mutable();
+//    Mutable();
+    MemberInitializerLists();
     
     //    std::cin.get();
 

@@ -33,6 +33,7 @@
 		217D50AE2611525D00557368 /* 22-string-literals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 217D50AC2611525D00557368 /* 22-string-literals.cpp */; };
 		217D50B126115BEF00557368 /* 23-const.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 217D50AF26115BEF00557368 /* 23-const.cpp */; };
 		217D50B4261162C200557368 /* 24-mutable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 217D50B2261162C200557368 /* 24-mutable.cpp */; };
+		217D50B726117B3000557368 /* 25-member-initializer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 217D50B526117B3000557368 /* 25-member-initializer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -101,6 +102,8 @@
 		217D50B026115BEF00557368 /* 23-const.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "23-const.hpp"; sourceTree = "<group>"; };
 		217D50B2261162C200557368 /* 24-mutable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "24-mutable.cpp"; sourceTree = "<group>"; };
 		217D50B3261162C200557368 /* 24-mutable.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "24-mutable.hpp"; sourceTree = "<group>"; };
+		217D50B526117B3000557368 /* 25-member-initializer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "25-member-initializer.cpp"; sourceTree = "<group>"; };
+		217D50B626117B3000557368 /* 25-member-initializer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "25-member-initializer.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +188,8 @@
 				217D50B026115BEF00557368 /* 23-const.hpp */,
 				217D50B2261162C200557368 /* 24-mutable.cpp */,
 				217D50B3261162C200557368 /* 24-mutable.hpp */,
+				217D50B526117B3000557368 /* 25-member-initializer.cpp */,
+				217D50B626117B3000557368 /* 25-member-initializer.hpp */,
 			);
 			path = "cherno-c++";
 			sourceTree = "<group>";
@@ -262,6 +267,7 @@
 				217D50AE2611525D00557368 /* 22-string-literals.cpp in Sources */,
 				212199EC260DBBBC0042B241 /* 1-variables.cpp in Sources */,
 				212199FE260DEC000042B241 /* 8-references.cpp in Sources */,
+				217D50B726117B3000557368 /* 25-member-initializer.cpp in Sources */,
 				212199F8260DD6680042B241 /* 6-control-flow.cpp in Sources */,
 				212199FB260DDA050042B241 /* 7-pointers.cpp in Sources */,
 				215BAE232610B7DA006E7BD8 /* 21-strings.cpp in Sources */,
