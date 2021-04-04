@@ -33,6 +33,7 @@
 		217326022619720C008C39A9 /* 26-ternary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 217326002619720C008C39A9 /* 26-ternary.cpp */; };
 		2173260526198FE5008C39A9 /* 27-create-objects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2173260326198FE5008C39A9 /* 27-create-objects.cpp */; };
 		2173260826199827008C39A9 /* 28-new-keyword.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2173260626199827008C39A9 /* 28-new-keyword.cpp */; };
+		2173260B2619A21D008C39A9 /* 29-implicit-conversion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 217326092619A21D008C39A9 /* 29-implicit-conversion.cpp */; };
 		217D50AE2611525D00557368 /* 22-string-literals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 217D50AC2611525D00557368 /* 22-string-literals.cpp */; };
 		217D50B126115BEF00557368 /* 23-const.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 217D50AF26115BEF00557368 /* 23-const.cpp */; };
 		217D50B4261162C200557368 /* 24-mutable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 217D50B2261162C200557368 /* 24-mutable.cpp */; };
@@ -105,6 +106,8 @@
 		2173260426198FE5008C39A9 /* 27-create-objects.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "27-create-objects.hpp"; sourceTree = "<group>"; };
 		2173260626199827008C39A9 /* 28-new-keyword.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "28-new-keyword.cpp"; sourceTree = "<group>"; };
 		2173260726199827008C39A9 /* 28-new-keyword.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "28-new-keyword.hpp"; sourceTree = "<group>"; };
+		217326092619A21D008C39A9 /* 29-implicit-conversion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "29-implicit-conversion.cpp"; sourceTree = "<group>"; };
+		2173260A2619A21D008C39A9 /* 29-implicit-conversion.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "29-implicit-conversion.hpp"; sourceTree = "<group>"; };
 		217D50AC2611525D00557368 /* 22-string-literals.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "22-string-literals.cpp"; sourceTree = "<group>"; };
 		217D50AD2611525D00557368 /* 22-string-literals.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "22-string-literals.hpp"; sourceTree = "<group>"; };
 		217D50AF26115BEF00557368 /* 23-const.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "23-const.cpp"; sourceTree = "<group>"; };
@@ -205,6 +208,8 @@
 				2173260426198FE5008C39A9 /* 27-create-objects.hpp */,
 				2173260626199827008C39A9 /* 28-new-keyword.cpp */,
 				2173260726199827008C39A9 /* 28-new-keyword.hpp */,
+				217326092619A21D008C39A9 /* 29-implicit-conversion.cpp */,
+				2173260A2619A21D008C39A9 /* 29-implicit-conversion.hpp */,
 			);
 			path = "cherno-c++";
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2173260B2619A21D008C39A9 /* 29-implicit-conversion.cpp in Sources */,
 				215BAE1A26107B8A006E7BD8 /* 18-virtual-functions.cpp in Sources */,
 				217D50B126115BEF00557368 /* 23-const.cpp in Sources */,
 				215BAE0826103CDB006E7BD8 /* 12-static.cpp in Sources */,

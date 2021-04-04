@@ -36,7 +36,7 @@
 #include "26-ternary.hpp"
 #include "27-create-objects.hpp"
 #include "28-new-keyword.hpp"
-
+#include "29-implicit-conversion.hpp";
 
 #define INTEGER int
 
@@ -89,7 +89,8 @@ int main() {
 //    MemberInitializerLists();
 //    Ternary();
 //    CreateObjects();
-    NewKeyword();
+//    NewKeyword();
+    ImplicitConversion();
     //    std::cin.get();
 
     
