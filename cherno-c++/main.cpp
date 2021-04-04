@@ -33,6 +33,9 @@
 #include "23-const.hpp"
 #include "24-mutable.hpp"
 #include "25-member-initializer.hpp"
+#include "26-ternary.hpp"
+#include "27-create-objects.hpp";
+
 
 
 #define INTEGER int
@@ -83,8 +86,9 @@ int main() {
 //    StringLiterals();
 //    Const();
 //    Mutable();
-    MemberInitializerLists();
-    
+//    MemberInitializerLists();
+//    Ternary();
+    CreateObjects();
     //    std::cin.get();
 
     

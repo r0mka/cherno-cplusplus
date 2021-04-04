@@ -30,6 +30,8 @@
 		215BAE1D261089DB006E7BD8 /* 19-interfaces.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215BAE1B261089DB006E7BD8 /* 19-interfaces.cpp */; };
 		215BAE202610AF39006E7BD8 /* 20-arrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215BAE1E2610AF39006E7BD8 /* 20-arrays.cpp */; };
 		215BAE232610B7DA006E7BD8 /* 21-strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215BAE212610B7DA006E7BD8 /* 21-strings.cpp */; };
+		217326022619720C008C39A9 /* 26-ternary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 217326002619720C008C39A9 /* 26-ternary.cpp */; };
+		2173260526198FE5008C39A9 /* 27-create-objects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2173260326198FE5008C39A9 /* 27-create-objects.cpp */; };
 		217D50AE2611525D00557368 /* 22-string-literals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 217D50AC2611525D00557368 /* 22-string-literals.cpp */; };
 		217D50B126115BEF00557368 /* 23-const.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 217D50AF26115BEF00557368 /* 23-const.cpp */; };
 		217D50B4261162C200557368 /* 24-mutable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 217D50B2261162C200557368 /* 24-mutable.cpp */; };
@@ -96,6 +98,10 @@
 		215BAE1F2610AF39006E7BD8 /* 20-arrays.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "20-arrays.hpp"; sourceTree = "<group>"; };
 		215BAE212610B7DA006E7BD8 /* 21-strings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "21-strings.cpp"; sourceTree = "<group>"; };
 		215BAE222610B7DA006E7BD8 /* 21-strings.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "21-strings.hpp"; sourceTree = "<group>"; };
+		217326002619720C008C39A9 /* 26-ternary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "26-ternary.cpp"; sourceTree = "<group>"; };
+		217326012619720C008C39A9 /* 26-ternary.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "26-ternary.hpp"; sourceTree = "<group>"; };
+		2173260326198FE5008C39A9 /* 27-create-objects.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "27-create-objects.cpp"; sourceTree = "<group>"; };
+		2173260426198FE5008C39A9 /* 27-create-objects.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "27-create-objects.hpp"; sourceTree = "<group>"; };
 		217D50AC2611525D00557368 /* 22-string-literals.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "22-string-literals.cpp"; sourceTree = "<group>"; };
 		217D50AD2611525D00557368 /* 22-string-literals.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "22-string-literals.hpp"; sourceTree = "<group>"; };
 		217D50AF26115BEF00557368 /* 23-const.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "23-const.cpp"; sourceTree = "<group>"; };
@@ -190,6 +196,10 @@
 				217D50B3261162C200557368 /* 24-mutable.hpp */,
 				217D50B526117B3000557368 /* 25-member-initializer.cpp */,
 				217D50B626117B3000557368 /* 25-member-initializer.hpp */,
+				217326002619720C008C39A9 /* 26-ternary.cpp */,
+				217326012619720C008C39A9 /* 26-ternary.hpp */,
+				2173260326198FE5008C39A9 /* 27-create-objects.cpp */,
+				2173260426198FE5008C39A9 /* 27-create-objects.hpp */,
 			);
 			path = "cherno-c++";
 			sourceTree = "<group>";
@@ -255,6 +265,7 @@
 				215BAE0826103CDB006E7BD8 /* 12-static.cpp in Sources */,
 				215BAE17261073EC006E7BD8 /* 17-inheritance.cpp in Sources */,
 				215BAE202610AF39006E7BD8 /* 20-arrays.cpp in Sources */,
+				217326022619720C008C39A9 /* 26-ternary.cpp in Sources */,
 				21219A07260DFE250042B241 /* 11-class.cpp in Sources */,
 				215BAE11261059C9006E7BD8 /* 15-enums.cpp in Sources */,
 				212199E6260DB33C0042B241 /* Log.cpp in Sources */,
@@ -268,6 +279,7 @@
 				212199EC260DBBBC0042B241 /* 1-variables.cpp in Sources */,
 				212199FE260DEC000042B241 /* 8-references.cpp in Sources */,
 				217D50B726117B3000557368 /* 25-member-initializer.cpp in Sources */,
+				2173260526198FE5008C39A9 /* 27-create-objects.cpp in Sources */,
 				212199F8260DD6680042B241 /* 6-control-flow.cpp in Sources */,
 				212199FB260DDA050042B241 /* 7-pointers.cpp in Sources */,
 				215BAE232610B7DA006E7BD8 /* 21-strings.cpp in Sources */,
