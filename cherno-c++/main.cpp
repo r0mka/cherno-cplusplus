@@ -34,8 +34,8 @@
 #include "24-mutable.hpp"
 #include "25-member-initializer.hpp"
 #include "26-ternary.hpp"
-#include "27-create-objects.hpp";
-
+#include "27-create-objects.hpp"
+#include "28-new-keyword.hpp"
 
 
 #define INTEGER int
@@ -88,7 +88,8 @@ int main() {
 //    Mutable();
 //    MemberInitializerLists();
 //    Ternary();
-    CreateObjects();
+//    CreateObjects();
+    NewKeyword();
     //    std::cin.get();
 
     
