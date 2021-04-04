@@ -25,7 +25,27 @@ public:
 void CreateObjects(){
     std::cout <<  "CREATE/INSTANTIATE OBJECTS" << std::endl;
     
+    //Entity27 entity("Roman");
+    //Entity27 entity;
     
+    // allocating on the stack
+//    Entity27* e;
+//    {
+//        Entity27 entity = Entity27("Roman");
+//        e = &entity;
+//        std::cout << e->GetName() << std::endl;
+//    }
+   
+    // allocating on the heap. New keyword
+    Entity27* e;
+    {
+        Entity27* entity = new Entity27("Roman");
+        e = entity;
+        std::cout << entity->GetName() << std::endl;
+    
+    }
+  
+   delete e;
     
     std::cout << std::endl;
 }
